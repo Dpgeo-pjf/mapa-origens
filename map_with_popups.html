@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_165b47f2c3a6eeb3c8712c7e8640aac6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_165b47f2c3a6eeb3c8712c7e8640aac6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_165b47f2c3a6eeb3c8712c7e8640aac6 = L.map(
+                "map_165b47f2c3a6eeb3c8712c7e8640aac6",
+                {
+                    center: [-32.8895, -68.8458],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_36255d237c0e786d15fed04806ac8784 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+            var marker_e85dd99fa14c7f94e095a5dee1625046 = L.marker(
+                [-32.8895, -68.8458],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_8fa3e0d69fd602dda90fec905b15e324 = L.popup({"maxWidth": 300});
+
+        
+            var html_12ee910daf97d255c643b859203736c7 = $(`<div id="html_12ee910daf97d255c643b859203736c7" style="width: 100.0%; height: 100.0%;"><b>País:</b> Argentina<br><b>Localidade:</b> Mendoza<br><b>Latitude:</b> -32.8895<br><b>Longitude:</b> -68.8458</div>`)[0];
+            popup_8fa3e0d69fd602dda90fec905b15e324.setContent(html_12ee910daf97d255c643b859203736c7);
+        
+
+        marker_e85dd99fa14c7f94e095a5dee1625046.bindPopup(popup_8fa3e0d69fd602dda90fec905b15e324)
+        ;
+
+        
+    
+    
+            var marker_2331debf098c92cb87a2e5af6668ae44 = L.marker(
+                [-19.9167, -43.9345],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_2d6cf6b28346a03502ce847e196232f2 = L.popup({"maxWidth": 300});
+
+        
+            var html_dc25925008ac6a573ed6163d8b1bdd45 = $(`<div id="html_dc25925008ac6a573ed6163d8b1bdd45" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Belo Horizonte (MG)<br><b>Latitude:</b> -19.9167<br><b>Longitude:</b> -43.9345</div>`)[0];
+            popup_2d6cf6b28346a03502ce847e196232f2.setContent(html_dc25925008ac6a573ed6163d8b1bdd45);
+        
+
+        marker_2331debf098c92cb87a2e5af6668ae44.bindPopup(popup_2d6cf6b28346a03502ce847e196232f2)
+        ;
+
+        
+    
+    
+            var marker_775d53d65335225e01ccaccb390feac9 = L.marker(
+                [-22.1164, -45.0095],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_0295a15ca7e3652c5d5fb60eda543e40 = L.popup({"maxWidth": 300});
+
+        
+            var html_3bcb08417f7f295ac8315938de983b64 = $(`<div id="html_3bcb08417f7f295ac8315938de983b64" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Pouso Alegre (MG)<br><b>Latitude:</b> -22.1164<br><b>Longitude:</b> -45.0095</div>`)[0];
+            popup_0295a15ca7e3652c5d5fb60eda543e40.setContent(html_3bcb08417f7f295ac8315938de983b64);
+        
+
+        marker_775d53d65335225e01ccaccb390feac9.bindPopup(popup_0295a15ca7e3652c5d5fb60eda543e40)
+        ;
+
+        
+    
+    
+            var marker_84273858be419d8102ad8bf5882487f3 = L.marker(
+                [-25.4296, -49.2713],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_09781e77f82901863039903e31274004 = L.popup({"maxWidth": 300});
+
+        
+            var html_dd45a2f7daa6be1bf5f3cd9eacf9b448 = $(`<div id="html_dd45a2f7daa6be1bf5f3cd9eacf9b448" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Curitiba (PR)<br><b>Latitude:</b> -25.4296<br><b>Longitude:</b> -49.2713</div>`)[0];
+            popup_09781e77f82901863039903e31274004.setContent(html_dd45a2f7daa6be1bf5f3cd9eacf9b448);
+        
+
+        marker_84273858be419d8102ad8bf5882487f3.bindPopup(popup_09781e77f82901863039903e31274004)
+        ;
+
+        
+    
+    
+            var marker_6c2a781f0eb5a7e2dd576ecad8ca9c99 = L.marker(
+                [-25.5701, -49.3918],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_030b5ba0f2b333d9679cc612cb0390e3 = L.popup({"maxWidth": 300});
+
+        
+            var html_356e5d133aae61d86f689a2e7801ef54 = $(`<div id="html_356e5d133aae61d86f689a2e7801ef54" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> São José dos Pinhais (PR)<br><b>Latitude:</b> -25.5701<br><b>Longitude:</b> -49.3918</div>`)[0];
+            popup_030b5ba0f2b333d9679cc612cb0390e3.setContent(html_356e5d133aae61d86f689a2e7801ef54);
+        
+
+        marker_6c2a781f0eb5a7e2dd576ecad8ca9c99.bindPopup(popup_030b5ba0f2b333d9679cc612cb0390e3)
+        ;
+
+        
+    
+    
+            var marker_f663d4a6b3d40a9744f150f162c55c41 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_ea2d3c9ce742e8cf47a0fd0615e6f0fb = L.popup({"maxWidth": 300});
+
+        
+            var html_1ae793c3c19ff1e4d0c8d481cfd33ca4 = $(`<div id="html_1ae793c3c19ff1e4d0c8d481cfd33ca4" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> São Paulo (SP)<br><b>Latitude:</b> -23.5505<br><b>Longitude:</b> -46.6333</div>`)[0];
+            popup_ea2d3c9ce742e8cf47a0fd0615e6f0fb.setContent(html_1ae793c3c19ff1e4d0c8d481cfd33ca4);
+        
+
+        marker_f663d4a6b3d40a9744f150f162c55c41.bindPopup(popup_ea2d3c9ce742e8cf47a0fd0615e6f0fb)
+        ;
+
+        
+    
+    
+            var marker_812c84cc389a0445b5592d4774632d88 = L.marker(
+                [-21.1699, -47.8103],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_d3780ce46794f8fae5296f871db991a3 = L.popup({"maxWidth": 300});
+
+        
+            var html_5c93c22143026af982ac98d2c04265c4 = $(`<div id="html_5c93c22143026af982ac98d2c04265c4" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Ribeirão Preto (SP)<br><b>Latitude:</b> -21.1699<br><b>Longitude:</b> -47.8103</div>`)[0];
+            popup_d3780ce46794f8fae5296f871db991a3.setContent(html_5c93c22143026af982ac98d2c04265c4);
+        
+
+        marker_812c84cc389a0445b5592d4774632d88.bindPopup(popup_d3780ce46794f8fae5296f871db991a3)
+        ;
+
+        
+    
+    
+            var marker_813bafd102a3f96c8bb9f11e3a93872d = L.marker(
+                [-22.7383, -45.5922],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_f649284d3ae357a143a9b45b53552640 = L.popup({"maxWidth": 300});
+
+        
+            var html_e89baf9f9de29c3a434531e3ff964228 = $(`<div id="html_e89baf9f9de29c3a434531e3ff964228" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Campos do Jordão (SP)<br><b>Latitude:</b> -22.7383<br><b>Longitude:</b> -45.5922</div>`)[0];
+            popup_f649284d3ae357a143a9b45b53552640.setContent(html_e89baf9f9de29c3a434531e3ff964228);
+        
+
+        marker_813bafd102a3f96c8bb9f11e3a93872d.bindPopup(popup_f649284d3ae357a143a9b45b53552640)
+        ;
+
+        
+    
+    
+            var marker_eed4fd92f6a2ca49a73d747bf8fdcb09 = L.marker(
+                [-30.0331, -51.2304],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_cca291eb4caf58d78840397761d9774e = L.popup({"maxWidth": 300});
+
+        
+            var html_0bded89c2a68b41d01c1f23a0533261d = $(`<div id="html_0bded89c2a68b41d01c1f23a0533261d" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Porto Alegre (RS)<br><b>Latitude:</b> -30.0331<br><b>Longitude:</b> -51.2304</div>`)[0];
+            popup_cca291eb4caf58d78840397761d9774e.setContent(html_0bded89c2a68b41d01c1f23a0533261d);
+        
+
+        marker_eed4fd92f6a2ca49a73d747bf8fdcb09.bindPopup(popup_cca291eb4caf58d78840397761d9774e)
+        ;
+
+        
+    
+    
+            var marker_64dde913a5a288fb5cfb80dd551e04a6 = L.marker(
+                [-31.7654, -52.3371],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_3d5babe5355f4bf22895933d8c9a206a = L.popup({"maxWidth": 300});
+
+        
+            var html_0abcf4073da6dfb9e89d66056a4299d2 = $(`<div id="html_0abcf4073da6dfb9e89d66056a4299d2" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Pelotas (RS)<br><b>Latitude:</b> -31.7654<br><b>Longitude:</b> -52.3371</div>`)[0];
+            popup_3d5babe5355f4bf22895933d8c9a206a.setContent(html_0abcf4073da6dfb9e89d66056a4299d2);
+        
+
+        marker_64dde913a5a288fb5cfb80dd551e04a6.bindPopup(popup_3d5babe5355f4bf22895933d8c9a206a)
+        ;
+
+        
+    
+    
+            var marker_5311c5b9481019d16e73e026391b69b4 = L.marker(
+                [-29.3747, -50.8771],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_0fb76750493b36370450e1bac5738f06 = L.popup({"maxWidth": 300});
+
+        
+            var html_216748c66ffba8f9426b46dade730374 = $(`<div id="html_216748c66ffba8f9426b46dade730374" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Gramado (RS)<br><b>Latitude:</b> -29.3747<br><b>Longitude:</b> -50.8771</div>`)[0];
+            popup_0fb76750493b36370450e1bac5738f06.setContent(html_216748c66ffba8f9426b46dade730374);
+        
+
+        marker_5311c5b9481019d16e73e026391b69b4.bindPopup(popup_0fb76750493b36370450e1bac5738f06)
+        ;
+
+        
+    
+    
+            var marker_2a9f0acdd0db3ce7b3f24623d9fbbc13 = L.marker(
+                [-27.5954, -48.548],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_e1b0c1b15ff47aec70af4dd8e84760c1 = L.popup({"maxWidth": 300});
+
+        
+            var html_32bcda631734da30618e4a912f5553be = $(`<div id="html_32bcda631734da30618e4a912f5553be" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Florianópolis (SC)<br><b>Latitude:</b> -27.5954<br><b>Longitude:</b> -48.548</div>`)[0];
+            popup_e1b0c1b15ff47aec70af4dd8e84760c1.setContent(html_32bcda631734da30618e4a912f5553be);
+        
+
+        marker_2a9f0acdd0db3ce7b3f24623d9fbbc13.bindPopup(popup_e1b0c1b15ff47aec70af4dd8e84760c1)
+        ;
+
+        
+    
+    
+            var marker_79ae8e16482b6f5dddf7d973b1b665fd = L.marker(
+                [-26.9155, -49.0728],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_c272a8195fbec36af8d8ffce3ba8dc15 = L.popup({"maxWidth": 300});
+
+        
+            var html_2b9b3eab74070de1b38b08290ced058e = $(`<div id="html_2b9b3eab74070de1b38b08290ced058e" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brasil<br><b>Localidade:</b> Blumenau (SC)<br><b>Latitude:</b> -26.9155<br><b>Longitude:</b> -49.0728</div>`)[0];
+            popup_c272a8195fbec36af8d8ffce3ba8dc15.setContent(html_2b9b3eab74070de1b38b08290ced058e);
+        
+
+        marker_79ae8e16482b6f5dddf7d973b1b665fd.bindPopup(popup_c272a8195fbec36af8d8ffce3ba8dc15)
+        ;
+
+        
+    
+    
+            var marker_774da97a55a78b803d357bbdc35bd744 = L.marker(
+                [30.2875, 120.1517],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_ab064ee596cb46233564a1a7c88ea447 = L.popup({"maxWidth": 300});
+
+        
+            var html_d7e3d652eeaf174d9ccc59c78f2daab0 = $(`<div id="html_d7e3d652eeaf174d9ccc59c78f2daab0" style="width: 100.0%; height: 100.0%;"><b>País:</b> China<br><b>Localidade:</b> Hangzhou<br><b>Latitude:</b> 30.2875<br><b>Longitude:</b> 120.1517</div>`)[0];
+            popup_ab064ee596cb46233564a1a7c88ea447.setContent(html_d7e3d652eeaf174d9ccc59c78f2daab0);
+        
+
+        marker_774da97a55a78b803d357bbdc35bd744.bindPopup(popup_ab064ee596cb46233564a1a7c88ea447)
+        ;
+
+        
+    
+    
+            var marker_752ddbc19b9b61f8808fcc8b6c9a3421 = L.marker(
+                [37.7796, -3.7849],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_943df1013aeae6fadda81da35c565a72 = L.popup({"maxWidth": 300});
+
+        
+            var html_fbb07e6c9215d745f6e9620c76429f97 = $(`<div id="html_fbb07e6c9215d745f6e9620c76429f97" style="width: 100.0%; height: 100.0%;"><b>País:</b> Espanha<br><b>Localidade:</b> Jaén<br><b>Latitude:</b> 37.7796<br><b>Longitude:</b> -3.7849</div>`)[0];
+            popup_943df1013aeae6fadda81da35c565a72.setContent(html_fbb07e6c9215d745f6e9620c76429f97);
+        
+
+        marker_752ddbc19b9b61f8808fcc8b6c9a3421.bindPopup(popup_943df1013aeae6fadda81da35c565a72)
+        ;
+
+        
+    
+    
+            var marker_ada55080e80b123e4b40fa91d2a083ee = L.marker(
+                [43.8376, 6.8677],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_c59036d75f0fdae29b004c1b17542801 = L.popup({"maxWidth": 300});
+
+        
+            var html_2e126ac16412cc93aaeb1b3b3ddb6d44 = $(`<div id="html_2e126ac16412cc93aaeb1b3b3ddb6d44" style="width: 100.0%; height: 100.0%;"><b>País:</b> França<br><b>Localidade:</b> Grasse<br><b>Latitude:</b> 43.8376<br><b>Longitude:</b> 6.8677</div>`)[0];
+            popup_c59036d75f0fdae29b004c1b17542801.setContent(html_2e126ac16412cc93aaeb1b3b3ddb6d44);
+        
+
+        marker_ada55080e80b123e4b40fa91d2a083ee.bindPopup(popup_c59036d75f0fdae29b004c1b17542801)
+        ;
+
+        
+    
+    
+            var marker_43235cfedc7bebc67f0997248d985b87 = L.marker(
+                [31.1704, 76.7044],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_14716a93785f6c5ae241e71c0c839b34 = L.popup({"maxWidth": 300});
+
+        
+            var html_fe029552280e7909e6d0ac41b059c1b8 = $(`<div id="html_fe029552280e7909e6d0ac41b059c1b8" style="width: 100.0%; height: 100.0%;"><b>País:</b> Índia<br><b>Localidade:</b> Punjab<br><b>Latitude:</b> 31.1704<br><b>Longitude:</b> 76.7044</div>`)[0];
+            popup_14716a93785f6c5ae241e71c0c839b34.setContent(html_fe029552280e7909e6d0ac41b059c1b8);
+        
+
+        marker_43235cfedc7bebc67f0997248d985b87.bindPopup(popup_14716a93785f6c5ae241e71c0c839b34)
+        ;
+
+        
+    
+    
+            var marker_ecd95e7850d06b20cd0fafefb993d107 = L.marker(
+                [41.9028, 12.4964],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_c31d624bb4e22a6c66ee563257061578 = L.popup({"maxWidth": 300});
+
+        
+            var html_464a8f091f78296965f2592812a07d7c = $(`<div id="html_464a8f091f78296965f2592812a07d7c" style="width: 100.0%; height: 100.0%;"><b>País:</b> Itália<br><b>Localidade:</b> Roma<br><b>Latitude:</b> 41.9028<br><b>Longitude:</b> 12.4964</div>`)[0];
+            popup_c31d624bb4e22a6c66ee563257061578.setContent(html_464a8f091f78296965f2592812a07d7c);
+        
+
+        marker_ecd95e7850d06b20cd0fafefb993d107.bindPopup(popup_c31d624bb4e22a6c66ee563257061578)
+        ;
+
+        
+    
+    
+            var marker_dc9f347ac128aacd0f401438c4e18542 = L.marker(
+                [44.6471, 10.9252],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_4fe8687db679859f6c0dd0e0068e4610 = L.popup({"maxWidth": 300});
+
+        
+            var html_c598a5d4acf7c4ab40a58f168211ad6e = $(`<div id="html_c598a5d4acf7c4ab40a58f168211ad6e" style="width: 100.0%; height: 100.0%;"><b>País:</b> Itália<br><b>Localidade:</b> Modena<br><b>Latitude:</b> 44.6471<br><b>Longitude:</b> 10.9252</div>`)[0];
+            popup_4fe8687db679859f6c0dd0e0068e4610.setContent(html_c598a5d4acf7c4ab40a58f168211ad6e);
+        
+
+        marker_dc9f347ac128aacd0f401438c4e18542.bindPopup(popup_4fe8687db679859f6c0dd0e0068e4610)
+        ;
+
+        
+    
+    
+            var marker_57f99b07438ffe9ea2089e0413d9d75e = L.marker(
+                [46.9481, 7.4474],
+                {}
+            ).addTo(map_165b47f2c3a6eeb3c8712c7e8640aac6);
+        
+    
+        var popup_ce9c65648aebce336e616062cb52b60a = L.popup({"maxWidth": 300});
+
+        
+            var html_a12392863b4c0b7a1aa03a87877414be = $(`<div id="html_a12392863b4c0b7a1aa03a87877414be" style="width: 100.0%; height: 100.0%;"><b>País:</b> Suíça<br><b>Localidade:</b> Berna<br><b>Latitude:</b> 46.9481<br><b>Longitude:</b> 7.4474</div>`)[0];
+            popup_ce9c65648aebce336e616062cb52b60a.setContent(html_a12392863b4c0b7a1aa03a87877414be);
+        
+
+        marker_57f99b07438ffe9ea2089e0413d9d75e.bindPopup(popup_ce9c65648aebce336e616062cb52b60a)
+        ;
+
+        
+    
+</script>
+</html>
